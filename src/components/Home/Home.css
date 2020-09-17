@@ -3,4 +3,27 @@
     min-height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+}
+.card{
+    padding:.5rem;
+    min-height: 300px;
+   
+    margin-right:40px;
+    border-radius: 5%;
+}
+.card:hover{
+    border:5px solid goldenrod;
+}
+.card-btn{
+    margin-top: 15rem;
+    margin-left: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    text-decoration: none;
+    font-size: 24px;
+}
+.card-btn:hover{
+    color: orangered;
+    text-decoration: none;
 }

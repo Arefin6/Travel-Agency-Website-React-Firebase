@@ -1,0 +1,29 @@
+.start-btn{
+    color:rgba(27, 20, 20, 0.808);
+    width:260px;
+}
+.book-form label{
+    color:#6b6565;
+}
+
+.book-form input[type=text],input[type=text]:focus{
+    color:#070606;
+    background-color:#eee6e6;
+    font-weight: bold;
+    outline:none;
+    background-color:#eee6e6;
+    border: none;
+    box-shadow: none;
+}
+.calender-logo{
+    width:20px;
+    position:absolute;
+    top: 65%;
+    left:37%;   
+}
+.calender-logo2{
+    width:20px;
+    position:absolute;
+    top: 66%;
+    left:84%;   
+}
