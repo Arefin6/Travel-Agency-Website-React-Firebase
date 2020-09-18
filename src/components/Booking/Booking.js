@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import './Booking.css';
 import calenderLogo from '../../Icon/calender_icon.png';
 import DatePicker from "react-datepicker";
@@ -11,7 +11,6 @@ const Booking = () => {
     const{name}=useParams();    
     
     const[startdate,setStartDate] =useState(new Date());
-
 
     return (
         <div className="Home-warp">
@@ -68,7 +67,7 @@ const Booking = () => {
                     </div>
                 </div>
                  
-                 <button type="submit" className="btn btn-warning start-btn mt-3">Start Booking</button>
+                 <Link to="/hotels" className="btn btn-warning start-btn mt-3">Start Booking</Link>
 
 
     

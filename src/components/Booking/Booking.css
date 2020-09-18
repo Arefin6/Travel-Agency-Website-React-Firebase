@@ -6,12 +6,11 @@
     color:#6b6565;
 }
 
-.book-form input[type=text],input[type=text]:focus{
+.book-form input[type="text"],input[type="password"],input[type="text"]:focus,input[type="password"]:focus{
     color:#070606;
     background-color:#eee6e6;
     font-weight: bold;
     outline:none;
-    background-color:#eee6e6;
     border: none;
     box-shadow: none;
 }

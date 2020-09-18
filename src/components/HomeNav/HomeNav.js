@@ -1,15 +1,16 @@
 import {faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../Logo.png';
 import './HomeNav.css';
 
 const HomeNav = () => {
     return (
    <div className="container">     
-    <nav class="navbar navbar-expand-lg ">
-        <a class="navbar-brand" href="#"><img src={logo} alt=""/></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <nav className="navbar navbar-expand-lg ">
+        <a className="navbar-brand" href="#"><img src={logo} alt=""/></a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
       
@@ -33,7 +34,7 @@ const HomeNav = () => {
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
             </li>
-            <button className="btn btn-warning">Login</button>
+            <Link to="/login" className="btn btn-warning">Login</Link>
           </ul>
         
         </div>

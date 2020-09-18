@@ -1,0 +1,40 @@
+body{
+    background-color: whitesmoke;
+    color:black;
+}
+.login-form{
+    background-color: #fff;
+    padding: 1rem;
+    border:1px solid #c8c4c4 ;
+}
+.log-ancor{
+    color:orange;
+}
+.log-ancor:hover{
+  color: orangered;
+}
+.forgetPas{
+    margin-left: 8rem;
+}
+.or{
+    margin-left: 35rem;
+    margin-top: -1rem;
+}
+.logo-btn{
+    display: block;
+    margin-left: 35%;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    border:1px solid #ddd;
+    border-radius:13%;
+    width:300px;
+    padding: 1rem;
+    min-height: 2rem;
+}
+.logo-btn:focus{
+    box-shadow: none;
+}
+.logo-btn img{
+    width: 30px;
+    margin-right: 2rem;
+}
