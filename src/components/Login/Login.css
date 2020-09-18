@@ -9,6 +9,7 @@ body{
 }
 .log-ancor{
     color:orange;
+    cursor: pointer;
 }
 .log-ancor:hover{
   color: orangered;

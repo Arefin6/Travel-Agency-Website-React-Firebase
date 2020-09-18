@@ -39,7 +39,7 @@ const Booking = () => {
             <form>
                 <div className="form-group">
                     <label for="origin">Origin</label>
-                    <input type="text" className="form-control"/>
+                    <input type="text" className="form-control" placeholder="Enter Your Location" required />
                     
                 </div>
                  <div className="form-group">
@@ -67,7 +67,7 @@ const Booking = () => {
                     </div>
                 </div>
                  
-                 <Link to="/hotels" className="btn btn-warning start-btn mt-3">Start Booking</Link>
+                 <Link to="/hotels" type="submit" className="btn btn-warning start-btn mt-3">Start Booking</Link>
 
 
     
