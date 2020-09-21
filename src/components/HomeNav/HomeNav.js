@@ -34,7 +34,7 @@ const HomeNav = () => {
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
             </li>
-            <Link to="/login" className="btn btn-warning">Login</Link>
+            <Link to="/login" className="btn btn-warning ml-4">Login</Link>
           </ul>
         
         </div>
