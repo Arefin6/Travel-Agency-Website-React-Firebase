@@ -167,7 +167,7 @@ const handleBlur = (e)=>{
                    <label htmlFor="RememberMe">Remember Me</label>
                    <a href="#" className="forgetPas log-ancor">Forget Password</a>
                    </div>
-                 <input type="submit" value="Login" className="btn btn-warning log-btn mt-4 mb-3" style={{width:"400px"}} />
+                 <input type="submit" value="Login" className="btn btn-warning log-btn mt-4 mb-3" style={{width:"100%"}} />
                   <p className="ml-3">Don't Have an Account? <a className="log-ancor" onClick={() => handleNewUser()}>Create an Account</a></p>
                  </div>
                 
@@ -194,8 +194,8 @@ const handleBlur = (e)=>{
 
                <input type="password" className="form-control mt-4" placeholder="Confirm Password" name="confirmPassword" onBlur={handleBlur} required />
                 
-               <input type="submit" value="Create an account" className="btn btn-warning log-btn mt-4 mb-3"style={{width:"400px"}} />
-                <p className="ml-3">Already Have an Account? <a className="log-ancor" onClick={ () =>handleNewUser()}>Login</a></p>
+               <input type="submit" value="Create an account" className="btn btn-warning log-btn mt-4 mb-3 form-control"style={{width:"100%"}} />
+                <p className="ml-3">Already Have an Account? <a className=" log-ancor" onClick={ () =>handleNewUser()}>Login</a></p>
                </div>
               
               </div>
