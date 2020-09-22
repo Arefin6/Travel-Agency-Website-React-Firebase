@@ -67,7 +67,7 @@ const Booking = () => {
                     </div>
                 </div>
                  
-                 <Link to="/hotels" type="submit" className="btn btn-warning start-btn mt-3">Start Booking</Link>
+                 <Link to={`/hotels/${name}`} type="submit" className="btn btn-warning start-btn mt-3">Start Booking</Link>
 
 
     

@@ -1,0 +1,17 @@
+.heading-primary{
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.text{
+    color:#908b8b;
+}
+.room img{
+  width: 50%;
+}
+.rating img{
+  width:40px;
+  margin-right: 10px;
+}
+.maps{
+  margin-top: 7rem;
+}

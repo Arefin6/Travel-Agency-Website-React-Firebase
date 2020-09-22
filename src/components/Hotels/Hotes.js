@@ -1,9 +1,15 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
+import RoomDetails from '../../RoomDeails/RoomDetails';
+import Header from '../Header/Header';
 
 const Hotes = () => {
+    const{name} = useParams();
     return (
         <div>
-            <h2>Welcome to Hotels</h2>
+           <Header donotShowLogin={true} ></Header> 
+           <RoomDetails name ={name}></RoomDetails>
+
         </div>
     );
 };

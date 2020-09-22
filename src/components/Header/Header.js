@@ -1,7 +1,10 @@
 import React from 'react';
 import logo from '../../Logo.png';
 
-const Header = () => {
+const Header = (props) => {
+   const style = {
+     display:"none"
+   }
     return (
         <div className="bg-dark">     
     <nav className="navbar navbar-expand-lg ">
@@ -25,7 +28,7 @@ const Header = () => {
             <li className="nav-item">
               <a className="nav-link" href="#">Contact</a>
             </li>
-            <button className="btn btn-warning">Login</button>
+            <button style={props && style} className="btn btn-warning">Login</button>
           </ul>
         
         </div>
